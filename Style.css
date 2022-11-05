@@ -1,0 +1,273 @@
+/*Linking*/
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*Linking*/
+
+/*Font family */
+/*font-family: 'Abril Fatface', cursive;
+font-family: 'Raleway', sans-serif;*/
+
+/*Font family */
+
+.header {
+    background: url(img/Header-bg.png);
+}
+
+.p-5-c {
+    padding-top: 200px;
+    padding-bottom: 250px;
+}
+
+.h-font {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 56px;
+    /* margin: auto; */
+    text-align: center;
+}
+
+.p-font{
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+	/* margin: auto; */
+	text-align: center;
+}
+
+.btn-custom {
+    background: #E86652;
+    border: 0px;
+     border: 2px solid #e86652;
+}
+
+.btn:hover {
+    color: #e86652;
+    background-color: #ffecd1;
+    border-color: #e86652 solid 2px;
+    border: 2px solid #e86652;
+    transition-timing-function: ease-in;
+}
+
+.w-custom{
+	width: 60%;
+}
+.img-custom {
+    border: #ffffff solid;
+    border-width: 40px;
+    border-color: #e86652 solid 2px;
+}
+.image-cat{
+	
+margin-top: -189px;
+}
+
+
+.h-font-2{
+	font-family: 'Abril Fatface', cursive;
+	font-size: 40px;
+	/* margin: auto; */
+	text-align: center;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.img-txt {
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+.h-font-3 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 33px;
+    /* margin: auto; */
+    /* text-align: center; */
+}
+
+.p-font-2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    /* margin: auto; */
+    /* text-align: center; */
+}
+.col-custom {
+    padding-right: 10%;
+    padding-left: 5%;
+}
+
+.col-custom-2{
+	padding-right: 5%;
+    padding-left: 10%;
+}
+
+
+
+.img-txt-2{
+	background-image: url(img/bg-2.jpg);
+	background-position: bottom;
+}
+.h-font-3{
+
+}
+
+.h-font-4{
+	font-family: 'Abril Fatface', cursive;
+	font-size: 40px;
+	/* margin: auto; */
+	text-align: center;
+	padding-top: 0em;
+}
+
+.heading-new {
+    background: url(img/bg-3.jpg);
+    background-position: bottom;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.fa-solid, .fas {
+    font-weight: 900;
+    font-size: 22px;
+    color: #e86652;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 17px;
+}
+.icon-1 {
+    margin-right: 5px;
+}
+.h-1txt{
+font-family: 'Raleway', sans-serif;
+}
+
+.h-1txt {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 27px;
+}
+
+.para-font {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.h-txt {
+    padding-top: 3em;
+    padding-bottom: 3em;
+
+}
+.name {
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 16px;
+    opacity: 50%;
+}
+
+.btn-custom-2 {
+    background: #e86652;
+    border: #e86652 2px solid;
+    /* border-width: 2px; */
+    padding: 14px 100px;
+}
+
+
+.btn-custom-2:hover {
+    background: #ffffff;
+    border: #e86652 2px solid;
+    /* border-width: 2px; */
+    padding: 14px 100px;
+}
+
+.btn-custom-4:hover {
+	background: #ffffff;
+    border: #e86652 2px solid;
+    /* border-width: 2px; */
+    padding: 14px 100px;
+
+}
+.btn-custom-4{
+	background: #e86652;
+    border: #e86652 2px solid;
+    /* border-width: 2px; */
+    padding: 14px 100px;
+}
+.p-bottom {
+    font-family: 'Raleway';
+    font-size: 16px;
+    padding-top: 1em;
+    font-weight: 300;
+}
+.btn-custom1 {
+    padding-bottom: 8em;
+    background: url(img/bg-4.jpg);
+    background-position: bottom;
+}
+.footer {
+    padding-top: 2em;
+    border-top: 5px #d9d9d1 solid;
+}
+
+a {
+    color: #000000b3;
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 18px;
+}
+ul {
+    list-style: none;
+}
+a:hover {
+    transition-duration: 0.2s;
+    color: #e86652;
+}
+
+li {
+    padding: 0.5em 0em;
+}
+
+.row-foot {
+    padding-top: 2em;
+}
+.icons-foot {
+    padding-left: 1em;
+}
+.fa-brands, .fab {
+    font-weight: 400;
+    font-size: 20px;
+    color: #d6cfcb;
+}
+.input-group .btn {
+    position: relative;
+    z-index: 2;
+    background: #e86652;
+    border: 2px solid #e86652;
+    color: white;
+}
+h2.h-2txt {
+    font-family: 'Raleway';
+    padding-bottom: 1em;
+    font-size: 22px;
+    font-weight: 600;
+    color: #858585;
+}
+.reserved {
+    text-align: center;
+    background: #ab4839;
+    font-size: 14px;
+    font-family: 'Raleway';
+    color: #ffffffe8;
+    padding: 5px 0px;
+   
+}
+
+
+
